@@ -5,78 +5,98 @@
         <link href='styles.css' rel='stylesheet' type='text/css'>
     </head>
     <body>
+        
+        <div class ='title'>
         <h1>Mortar & Pestle Records Stylesheet</h1>
-        <section>
-            <h2>Colors</h2>
-            <div class='color' id='bright-gold'>
-                <h3>Bright Gold</h3>
-                <ul>
-                    <li>#cfa153</li>
-                    <li>rgb(207, 161, 83)</li>
-                    <li>hsl(38, 56%, 57%)</li>
-                    <li>cmyk(0%, 22%, 60%, 19%)</li>
+        <img src='images/logo.png' alt='logo in yellow'>
+        </div>
+            
+            <h2 class='subheading'>Colors</h2>
+            <section id='colors'>
+
+                <div class='color' id='bright-gold'>
+                    <h3 class='bright-gold'>Bright Gold </h3>
+                    <ul class='bright-gold'>
+                        <li class='bright-gold'>#cfa153</li>
+                        <li class='bright-gold'>rgb(207, 161, 83)</li>
+                        <li class='bright-gold'>hsl(38, 56%, 57%)</li>
+                        <li class='bright-gold'>cmyk(0%, 22%, 60%, 19%)</li>
+                    </ul>
+                </div>
+
+                <div class='color' id='black-6c'>
+                    <h3 class='black-6c'>Black 6c</h3>
+                    <ul class ='black-6c'>
+                        <li class ='black-6c'>#231f20</li>
+                        <li class ='black-6c'>rgb(35, 31, 32)</li>
+                        <li class ='black-6c'>hsl(345, 6%, 13%)</li>
+                        <li class ='black-6c'>cmyk(0%, 11%, 9%, 86%)</li>
+                    </ul>
+                </div>
+
+                <div class='color' id='bright-white'>
+                    <h3 class='bright-white'>Bright White</h3>
+                    <ul class ='bright-white'>
+                        <li class ='bright-white'>#ffffff</li>
+                        <li class ='bright-white'>rgb(255, 255, 255)</li>
+                        <li class ='bright-white'>hsl(0, 0%, 100%)</li>
+                        <li class ='bright-white'>cmyk(0%, 0%, 0%, 0%)</li>
+                    </ul>
+                </div>
+
+            </section>
+       
+        
+            <h2 class='subheading'>Fonts</h2>
+            <section id='fonts'>
+              
+                <ul class='font-list'>
+                    <li class='font'id='florent-bold-type'>Florent Bold Type</li>
+                    <li class='font' id='florent-poster-two-outline'>Florent Poster Two Outline</li>
+                    <li class='font' id='open-sans'>Open Sans</li>
                 </ul>
-            </div>
-            <div class='color' id='black-6c'>
-                <h3>Black 6c</h3>
-                <ul>
-                    <li>#231f20</li>
-                    <li>rgb(35, 31, 32)</li>
-                    <li>hsl(345, 6%, 13%)</li>
-                    <li>cmyk(0%, 11%, 9%, 86%)</li>
+               
+                <ul class='font-list'>
+                    <li class='font'id='florent-bold-type'>the lazy fox jumped over the brown dog</li>
+                    <li class='font' id='florent-poster-two-outline'>the lazy fox jumped over the brown dog</li>
+                    <li class='font' id='open-sans'>the lazy fox jumped over the brown dog</li>
                 </ul>
-            </div>
-            <div class='color' id='bright-white'>
-                <h3>Bright White</h3>
-                <ul>
-                    <li>#ffffff</li>
-                    <li>rgb(255, 255, 255)</li>
-                    <li>hsl(0, 0%, 100%)</li>
-                    <li>cmyk(0%, 0%, 0%, 0%)</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <h2>Fonts</h2>
-            <div class='font' id='florent-bold-type'>
-                 <h3>Florent Bold Type</h3>
-            </div>
-            <div class='font' id='florent-poster-two-outline'>
-                  <h3>Florent Poster Two Outline</h3>
-            </div>
-            <div class='font' id='open-sans'>
-                  <h3>Open Sans</h3>
-            </div>
-        </section>
-        <section>
-            <h2>Text Styles</h2>
-            <div class='text-style'>
-                <h1>H1: Main Page Heading</h1>'
-                <ul>
-                    <li>Font-weight:</li>
-                    <li>Font-size:</li>
-                    <li>Font-family:</li>
-                </ul>
-            </div>
-            <div class='text-style'>
-                <h2>H2: Subheading</h2>
-                <ul>
-                    <li>Font-weight:</li>
-                    <li>Font-size:</li>
-                    <li>Font-family:</li>
-                </ul>
-            </div>
-            <div class='text-style'>
-                <p>Paragraph Text</p>
-                <ul>
-                    <li>Font-weight:</li>
-                    <li>Font-size:</li>
-                    <li>Font-family:</li>
-                </ul>
-            </div>
-        </section>
-        <footer>
+              
+            </section>
+        
+            <h2 class='subheading'>Text Styles</h2>
+            <section id='text-styles'>
+                <div class='text-style'>
+                    <h1>H1: Main Page Heading</h1>
+                    <p><em><b>Florent Bold Type</b> shall be used for most main headings, although Florent Poster Two Outline will be considered an acceptable, ocassional alternative for black-background applications.</em></p>
+                    <ul>
+                        <li><b>Font-weight:</b> normal</li>
+                        <li><b>Font-size:</b> xx-large</li>
+                        <li><b>Font-family:</b> Florent-Poster-Two</li>
+                    </ul>
+                </div>
+                <div class='text-style'>
+                    <h2>H2: Subheading</h2>
+                    <p><em><b>Open Sans Extra-Bold</b> shall be the font of choice for subheadings and similar applications.</em></p>
+                    <ul>
+                        <li><b>Font-weight:</b> 500</li>
+                        <li><b>Font-size:</b> x-large</li>
+                        <li><b>Font-family:</b> Open-Sans-Extra-Bold</li>
+                    </ul>
+                </div>
+                <div class='text-style'>
+                    <p>Paragraph Text</p>
+                    <p><em><b>Open Sans</b> shall be the font of choice for body copy and other miscellaneous small text.</em></p>
+                    <ul>
+                        <li><b>Font-weight:</b> normal</li>
+                        <li><b>Font-size:</b> large</li>
+                        <li><b>Font-family:</b> Open Sans</li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer>
             <p>This guide is designed by William Reginald Rhoda</p>
-        </footer>
+            </footer>
     </body>
 </html>
